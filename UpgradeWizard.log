@@ -1,0 +1,22 @@
+Thu, 17 Feb 2022 15:28:27 +0530 [Upgrader] - Initializing SugarCRM environment
+Thu, 17 Feb 2022 15:28:27 +0530 [Upgrader] - The from version is detected as 11.0.2 ent
+Thu, 17 Feb 2022 15:28:27 +0530 [Upgrader] - DB timeout set to 28800
+Thu, 17 Feb 2022 15:28:27 +0530 [Upgrader] - Loading language en_us from /var/www/html/techsupport/install/language
+Thu, 17 Feb 2022 15:28:27 +0530 [Upgrader] - Loading language file from /var/www/html/techsupport/install/language/en_us.lang.php
+Thu, 17 Feb 2022 15:28:27 +0530 [Upgrader] - Loading language en_us from /var/www/html/techsupport/modules/UpgradeWizard/language
+Thu, 17 Feb 2022 15:28:27 +0530 [Upgrader] - Loading language file from /var/www/html/techsupport/modules/UpgradeWizard/language/en_us.lang.php
+Thu, 17 Feb 2022 15:28:27 +0530 [Upgrader] - Loading language en_us from /var/www/html/techsupport/modules/UpgradeWizard/language
+Thu, 17 Feb 2022 15:28:27 +0530 [Upgrader] - Loading language file from /var/www/html/techsupport/modules/UpgradeWizard/language/en_us.lang.php
+Thu, 17 Feb 2022 15:28:27 +0530 [Upgrader] - Done initializing SugarCRM environment
+Thu, 17 Feb 2022 15:28:27 +0530 [Upgrader] - WebUpgrader v.11.0.2 (build 275) starting
+Thu, 17 Feb 2022 15:28:28 +0530 [Upgrader] - Initializing SugarCRM environment
+Thu, 17 Feb 2022 15:28:28 +0530 [Upgrader] - The from version is detected as 11.0.2 ent
+Thu, 17 Feb 2022 15:28:28 +0530 [Upgrader] - DB timeout set to 28800
+Thu, 17 Feb 2022 15:28:28 +0530 [Upgrader] - Loading language en_us from /var/www/html/techsupport/install/language
+Thu, 17 Feb 2022 15:28:28 +0530 [Upgrader] - Loading language file from /var/www/html/techsupport/install/language/en_us.lang.php
+Thu, 17 Feb 2022 15:28:28 +0530 [Upgrader] - Loading language en_us from /var/www/html/techsupport/modules/UpgradeWizard/language
+Thu, 17 Feb 2022 15:28:28 +0530 [Upgrader] - Loading language file from /var/www/html/techsupport/modules/UpgradeWizard/language/en_us.lang.php
+Thu, 17 Feb 2022 15:28:28 +0530 [Upgrader] - Loading language en_us from /var/www/html/techsupport/modules/UpgradeWizard/language
+Thu, 17 Feb 2022 15:28:28 +0530 [Upgrader] - Loading language file from /var/www/html/techsupport/modules/UpgradeWizard/language/en_us.lang.php
+Thu, 17 Feb 2022 15:28:28 +0530 [Upgrader] - Done initializing SugarCRM environment
+Thu, 17 Feb 2022 15:28:28 +0530 [Upgrader] - WebUpgrader v.11.0.2 (build 275) starting

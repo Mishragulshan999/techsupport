@@ -1,0 +1,373 @@
+Thu Dec 16 17:27:22 2021 [15129][-none-][ALERT] Could not connect to DB server with options localhost as sa. port : Access denied for user 'sa'@'localhost' (using password: YES)
+Thu Dec 16 17:27:22 2021 [15129][-none-][ALERT] Could not connect to DB server with options localhost as sa. port : Access denied for user 'sa'@'localhost' (using password: YES)
+Thu Dec 16 17:27:47 2021 [61485][-none-][ALERT] Could not connect to DB server with options localhost as sa. port : Access denied for user 'sa'@'localhost' (using password: YES)
+Thu Dec 16 17:27:47 2021 [61485][-none-][ALERT] Could not connect to DB server with options localhost as sa. port : Access denied for user 'sa'@'localhost' (using password: YES)
+Thu Dec 16 17:45:29 2021 [25115][1][FATAL] Elasticsearch request failure: [parent] Data too large, data for [<http_request>] would be [1032554384/984.7mb], which is larger than the limit of [1020054732/972.7mb], real usage: [1032554384/984.7mb], new bytes reserved: [0/0b], usages [request=0/0b, fielddata=1886/1.8kb, in_flight_requests=0/0b, model_inference=0/0b, accounting=9895372/9.4mb]
+Thu Dec 16 17:45:29 2021 [25115][1][FATAL] Elasticsearch request failure: [parent] Data too large, data for [<http_request>] would be [1040422166/992.2mb], which is larger than the limit of [1020054732/972.7mb], real usage: [1040418704/992.2mb], new bytes reserved: [3462/3.3kb], usages [request=0/0b, fielddata=1886/1.8kb, in_flight_requests=3462/3.3kb, model_inference=0/0b, accounting=9895372/9.4mb]
+Mon Dec 27 12:25:16 2021 [44497][1][FATAL] Exception in Controller: Sugarcrm\Sugarcrm\Security\InputValidation\Exception\ViolationException: Violation for REQUEST -> source in /var/www/html/techsupport/src/Security/InputValidation/Request.php:280
+Stack trace:
+#0 /var/www/html/techsupport/src/Security/InputValidation/Request.php(209): Sugarcrm\Sugarcrm\Security\InputValidation\Request->handleViolations('REQUEST', 'source')
+#1 /var/www/html/techsupport/src/Security/InputValidation/Request.php(178): Sugarcrm\Sugarcrm\Security\InputValidation\Request->getValidInput('REQUEST', 'source', Array, 'csv')
+#2 /var/www/html/techsupport/modules/Import/views/view.confirm.php(56): Sugarcrm\Sugarcrm\Security\InputValidation\Request->getValidInputRequest('source', Array, 'csv')
+#3 /var/www/html/techsupport/include/MVC/View/SugarView.php(154): ImportViewConfirm->display(Array)
+#4 /var/www/html/techsupport/include/MVC/Controller/SugarController.php(360): SugarView->process(Array)
+#5 /var/www/html/techsupport/include/MVC/Controller/SugarController.php(308): SugarController->processView()
+#6 /var/www/html/techsupport/include/MVC/SugarApplication.php(199): SugarController->execute()
+#7 /var/www/html/techsupport/index.php(26): SugarApplication->execute()
+#8 {main}
+Mon Dec 27 12:30:45 2021 [48098][1][FATAL] SUGAREMAILADDRESS: email address is not valid [  ]
+Mon Dec 27 12:30:45 2021 [48098][1][FATAL] SUGAREMAILADDRESS: email address is not valid [  ]
+Mon Dec 27 12:30:45 2021 [48098][1][FATAL] SUGAREMAILADDRESS: email address is not valid [  ]
+Mon Dec 27 12:30:45 2021 [48098][1][FATAL] SUGAREMAILADDRESS: email address is not valid [  ]
+Mon Dec 27 12:34:55 2021 [35600][1][FATAL] SUGAREMAILADDRESS: email address is not valid [  ]
+Mon Dec 27 12:34:56 2021 [35600][1][FATAL] SUGAREMAILADDRESS: email address is not valid [  ]
+Mon Dec 27 12:34:56 2021 [35600][1][FATAL] SUGAREMAILADDRESS: email address is not valid [  ]
+Mon Dec 27 12:34:56 2021 [35600][1][FATAL] SUGAREMAILADDRESS: email address is not valid [  ]
+Mon Dec 27 12:40:24 2021 [50591][1][FATAL] SUGAREMAILADDRESS: email address is not valid [  ]
+Mon Dec 27 12:40:24 2021 [50591][1][FATAL] SUGAREMAILADDRESS: email address is not valid [  ]
+Mon Dec 27 12:40:24 2021 [50591][1][FATAL] SUGAREMAILADDRESS: email address is not valid [  ]
+Mon Dec 27 12:40:25 2021 [50591][1][FATAL] SUGAREMAILADDRESS: email address is not valid [  ]
+Thu Dec 30 11:41:47 2021 [33505][1][FATAL] Exception in Controller: Sugarcrm\Sugarcrm\Security\InputValidation\Exception\ViolationException: Violation for REQUEST -> source in /var/www/html/techsupport/src/Security/InputValidation/Request.php:280
+Stack trace:
+#0 /var/www/html/techsupport/src/Security/InputValidation/Request.php(209): Sugarcrm\Sugarcrm\Security\InputValidation\Request->handleViolations('REQUEST', 'source')
+#1 /var/www/html/techsupport/src/Security/InputValidation/Request.php(178): Sugarcrm\Sugarcrm\Security\InputValidation\Request->getValidInput('REQUEST', 'source', Array, 'csv')
+#2 /var/www/html/techsupport/modules/Import/views/view.confirm.php(56): Sugarcrm\Sugarcrm\Security\InputValidation\Request->getValidInputRequest('source', Array, 'csv')
+#3 /var/www/html/techsupport/include/MVC/View/SugarView.php(154): ImportViewConfirm->display(Array)
+#4 /var/www/html/techsupport/include/MVC/Controller/SugarController.php(360): SugarView->process(Array)
+#5 /var/www/html/techsupport/include/MVC/Controller/SugarController.php(308): SugarController->processView()
+#6 /var/www/html/techsupport/include/MVC/SugarApplication.php(199): SugarController->execute()
+#7 /var/www/html/techsupport/index.php(26): SugarApplication->execute()
+#8 {main}
+Wed Jan  5 10:48:16 2022 [10013][1][FATAL] SMTP -> ERROR: DATA END command failed. Reply: 5.2.252 SendAsDenied; sumit.nagpal@ambitsoftware.com not allowed to send as testcrm@ambitsoftware.in; STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message Cannot submit message. 0.35250:13350000, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:9F1F0000, 1.36674:0E000000, 1.61250:00000000, 1.45378:A41F0000, 1.44866:1E020000, 16.55847:F10F0000, 17.43559:0000000024020000000000000000000000000000, 20.521 Code: 554
+Wed Jan  5 10:48:16 2022 [10013][1][FATAL] PHPMailerProxy encountered an error: SMTP Error: data not accepted.SMTP server error: DATA END command failed Detail: 5.2.252 SendAsDenied; sumit.nagpal@ambitsoftware.com not allowed to send as testcrm@ambitsoftware.in; STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message Cannot submit message. 0.35250:13350000, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:9F1F0000, 1.36674:0E000000, 1.61250:00000000, 1.45378:A41F0000, 1.44866:1E020000, 16.55847:F10F0000, 17.43559:0000000024020000000000000000000000000000, 20.521 SMTP code: 554
+Wed Jan  5 10:48:16 2022 [10013][1][FATAL] PHPMailerProxy encountered an error: SMTP Error: data not accepted.SMTP server error: DATA END command failed Detail: 5.2.252 SendAsDenied; sumit.nagpal@ambitsoftware.com not allowed to send as testcrm@ambitsoftware.in; STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message Cannot submit message. 0.35250:13350000, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:9F1F0000, 1.36674:0E000000, 1.61250:00000000, 1.45378:A41F0000, 1.44866:1E020000, 16.55847:F10F0000, 17.43559:0000000024020000000000000000000000000000, 20.521 SMTP code: 554
+Wed Jan  5 10:48:16 2022 [10013][1][FATAL] SMTP -> ERROR: QUIT command failed. Reply: 40FD7921200F01F00000000, 20.50032:140FD7928217F01F1F000130, 0.35180:140FD792, 255.23226:0A000000, 255.27962:0A000000, 255.27962:0E000000, 255.31418:19000000, 0.35250:1F001336, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:3A000000, 1.36674:32000000, 1.61250:00000000, 1.45378:3F000000, 1.44866:01000000, 16.55847:A6000000, 17.43559:0000000098030000000000000100000000000000, 20.52176:140FD7921200101064000000, 20.50032:140FD79282170000BF2E0000, 0.35180:69000000, 255.23226:0A000C80, 255.27962:0A000000, 255.27962:32000000, 255.17082:DC040000, 0.27745:80030400, 4.21921:DC040000, 255.27962:FA000000, 255.1494:FA2E0000, 0.38698:46000000, 1.41134:46000000, 7.36354:010000000000010B01000000, 0.37692:01000000, 0.37948:01000001, 5.33852:00000000534D545000000000, 7.36354:010000000000010904000000, 4.56248:DC040000, 7.40748:010000000000010B40000100, 7.57132:000000000000000001000000, 1.63016:32000000, 4.39640:DC040000, 8.45434:EA311FCD6579D5499A72A47C5D38BC0C302E3438, 1.46798:04000000, 5.10786:0000000031352E32302E343832332E3031383A54595A505230334D42353533333A38346364373866622D626262322D343863302D386461342D6634343836613136633632323A333338383638009A001038383638, 7.51330:5CEB13C70AD0D90812000000, 0.39570:00000000, 1.55954:0A000000, 0.49266:56000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:01000000, 1.56562:00000000, 1.64146:32000000, 1.33010:32000000, 2.54258:DC040000, 255.1750:FD300000, 255.31418:BB000000, 0.22753:03000336, 255.21817:DC040000, 0.64418:C0000000, 4.39842:DC040000, 0.41586:5F310000, 4.60547:DC040000, 0.21966:0A003267, 4.30158:DC040000 [Hostname=TYZPR03MB5533.apcprd03.prod.outlook.com]
+221 2.0.0 Service closing transmission channel
+ Code: 76:
+Wed Jan  5 14:10:46 2022 [26402][1][FATAL] Elasticsearch request failure: [parent] Data too large, data for [<http_request>] would be [1046728394/998.2mb], which is larger than the limit of [1020054732/972.7mb], real usage: [1046727168/998.2mb], new bytes reserved: [1226/1.1kb], usages [request=0/0b, fielddata=1886/1.8kb, in_flight_requests=1226/1.1kb, model_inference=0/0b, accounting=9974012/9.5mb]
+Thu Jan  6 16:01:49 2022 [11677][a94bedbc-6ec2-11ec-9101-525400bc1097][FATAL] Elasticsearch request failure: [parent] Data too large, data for [<http_request>] would be [1039558490/991.4mb], which is larger than the limit of [1020054732/972.7mb], real usage: [1039557304/991.3mb], new bytes reserved: [1186/1.1kb], usages [request=0/0b, fielddata=1886/1.8kb, in_flight_requests=1186/1.1kb, model_inference=0/0b, accounting=10114392/9.6mb]
+Thu Jan  6 16:01:52 2022 [11677][a94bedbc-6ec2-11ec-9101-525400bc1097][FATAL] Elasticsearch request failure: [parent] Data too large, data for [<http_request>] would be [1037525682/989.4mb], which is larger than the limit of [1020054732/972.7mb], real usage: [1037524248/989.4mb], new bytes reserved: [1434/1.4kb], usages [request=0/0b, fielddata=1886/1.8kb, in_flight_requests=1434/1.4kb, model_inference=0/0b, accounting=10114392/9.6mb]
+Tue Jan 18 11:21:57 2022 [30844][a94bedbc-6ec2-11ec-9101-525400bc1097][FATAL] Elasticsearch request failure: [parent] Data too large, data for [<http_request>] would be [1032427072/984.5mb], which is larger than the limit of [1020054732/972.7mb], real usage: [1032425872/984.5mb], new bytes reserved: [1200/1.1kb], usages [request=0/0b, fielddata=1886/1.8kb, in_flight_requests=1200/1.1kb, model_inference=0/0b, accounting=10091676/9.6mb]
+Tue Jan 18 11:22:43 2022 [30844][a94bedbc-6ec2-11ec-9101-525400bc1097][FATAL] Elasticsearch request failure: [parent] Data too large, data for [<http_request>] would be [1021802560/974.4mb], which is larger than the limit of [1020054732/972.7mb], real usage: [1021801360/974.4mb], new bytes reserved: [1200/1.1kb], usages [request=0/0b, fielddata=1886/1.8kb, in_flight_requests=1200/1.1kb, model_inference=0/0b, accounting=10078616/9.6mb]
+Tue Jan 18 11:22:51 2022 [30844][a94bedbc-6ec2-11ec-9101-525400bc1097][FATAL] Elasticsearch request failure: [parent] Data too large, data for [<http_request>] would be [1037080700/989mb], which is larger than the limit of [1020054732/972.7mb], real usage: [1037079440/989mb], new bytes reserved: [1260/1.2kb], usages [request=0/0b, fielddata=1886/1.8kb, in_flight_requests=1260/1.2kb, model_inference=0/0b, accounting=10087424/9.6mb]
+Tue Jan 18 11:22:55 2022 [30844][a94bedbc-6ec2-11ec-9101-525400bc1097][FATAL] Elasticsearch request failure: [parent] Data too large, data for [<http_request>] would be [1036088784/988mb], which is larger than the limit of [1020054732/972.7mb], real usage: [1036087584/988mb], new bytes reserved: [1200/1.1kb], usages [request=0/0b, fielddata=1886/1.8kb, in_flight_requests=1200/1.1kb, model_inference=0/0b, accounting=10087424/9.6mb]
+Tue Jan 18 11:22:57 2022 [30844][a94bedbc-6ec2-11ec-9101-525400bc1097][FATAL] Elasticsearch request failure: [parent] Data too large, data for [<http_request>] would be [1042380292/994mb], which is larger than the limit of [1020054732/972.7mb], real usage: [1042379040/994mb], new bytes reserved: [1252/1.2kb], usages [request=0/0b, fielddata=1886/1.8kb, in_flight_requests=1252/1.2kb, model_inference=0/0b, accounting=10087424/9.6mb]
+Tue Jan 18 11:23:01 2022 [30844][a94bedbc-6ec2-11ec-9101-525400bc1097][FATAL] Elasticsearch request failure: [parent] Data too large, data for [<http_request>] would be [1033458960/985.5mb], which is larger than the limit of [1020054732/972.7mb], real usage: [1033457760/985.5mb], new bytes reserved: [1200/1.1kb], usages [request=0/0b, fielddata=1886/1.8kb, in_flight_requests=1200/1.1kb, model_inference=0/0b, accounting=10087424/9.6mb]
+Tue Jan 18 11:23:03 2022 [30844][a94bedbc-6ec2-11ec-9101-525400bc1097][FATAL] Elasticsearch request failure: [parent] Data too large, data for [<http_request>] would be [1039168944/991mb], which is larger than the limit of [1020054732/972.7mb], real usage: [1039167696/991mb], new bytes reserved: [1248/1.2kb], usages [request=0/0b, fielddata=1886/1.8kb, in_flight_requests=1248/1.2kb, model_inference=0/0b, accounting=10087424/9.6mb]
+Tue Jan 18 11:23:05 2022 [30844][a94bedbc-6ec2-11ec-9101-525400bc1097][FATAL] Elasticsearch request failure: [parent] Data too large, data for [<http_request>] would be [1048606080/1000mb], which is larger than the limit of [1020054732/972.7mb], real usage: [1048604880/1000mb], new bytes reserved: [1200/1.1kb], usages [request=0/0b, fielddata=1886/1.8kb, in_flight_requests=1200/1.1kb, model_inference=0/0b, accounting=10087424/9.6mb]
+Tue Jan 18 11:23:07 2022 [30844][a94bedbc-6ec2-11ec-9101-525400bc1097][FATAL] Elasticsearch request failure: [parent] Data too large, data for [<http_request>] would be [1054897606/1006mb], which is larger than the limit of [1020054732/972.7mb], real usage: [1054896336/1006mb], new bytes reserved: [1270/1.2kb], usages [request=0/0b, fielddata=1886/1.8kb, in_flight_requests=1270/1.2kb, model_inference=0/0b, accounting=10087424/9.6mb]
+Tue Jan 18 11:23:10 2022 [8956][a94bedbc-6ec2-11ec-9101-525400bc1097][FATAL] Elasticsearch request failure: [parent] Data too large, data for [<http_request>] would be [1063286144/1014mb], which is larger than the limit of [1020054732/972.7mb], real usage: [1063284944/1014mb], new bytes reserved: [1200/1.1kb], usages [request=0/0b, fielddata=1886/1.8kb, in_flight_requests=1200/1.1kb, model_inference=0/0b, accounting=10087424/9.6mb]
+Sun Jan 30 14:37:28 2022 [48479][1][FATAL] Elasticsearch request failure: no such index [8abde078cb86d98a42445c614ae81b36_quotes] [index: 8abde078cb86d98a42445c614ae81b36_quotes]
+Sun Jan 30 14:37:28 2022 [48479][1][FATAL] Elasticsearch request failure: no such index [8abde078cb86d98a42445c614ae81b36_tags] [index: 8abde078cb86d98a42445c614ae81b36_tags]
+Sun Jan 30 14:37:32 2022 [48480][1][FATAL] Elasticsearch request failure: no such index [8abde078cb86d98a42445c614ae81b36_quotes] [index: 8abde078cb86d98a42445c614ae81b36_quotes]
+Sun Jan 30 14:37:32 2022 [48480][1][FATAL] Elasticsearch request failure: no such index [8abde078cb86d98a42445c614ae81b36_tags] [index: 8abde078cb86d98a42445c614ae81b36_tags]
+Sun Jan 30 14:37:33 2022 [48482][1][FATAL] Elasticsearch request failure: no such index [8abde078cb86d98a42445c614ae81b36_quotes] [index: 8abde078cb86d98a42445c614ae81b36_quotes]
+Sun Jan 30 14:37:33 2022 [48482][1][FATAL] Elasticsearch request failure: no such index [8abde078cb86d98a42445c614ae81b36_tags] [index: 8abde078cb86d98a42445c614ae81b36_tags]
+Sun Jan 30 14:37:33 2022 [501][1][FATAL] Elasticsearch request failure: no such index [8abde078cb86d98a42445c614ae81b36_quotes] [index: 8abde078cb86d98a42445c614ae81b36_quotes]
+Sun Jan 30 14:37:40 2022 [501][1][FATAL] Elasticsearch request failure: [parent] Data too large, data for [<http_request>] would be [1039974932/991.7mb], which is larger than the limit of [1020054732/972.7mb], real usage: [1039938312/991.7mb], new bytes reserved: [36620/35.7kb], usages [request=0/0b, fielddata=8767/8.5kb, in_flight_requests=36620/35.7kb, model_inference=0/0b, accounting=10088232/9.6mb]
+Sun Jan 30 14:37:40 2022 [501][1][FATAL] Elasticsearch request failure: [parent] Data too large, data for [<http_request>] would be [1039509304/991.3mb], which is larger than the limit of [1020054732/972.7mb], real usage: [1039508512/991.3mb], new bytes reserved: [792/792b], usages [request=0/0b, fielddata=8767/8.5kb, in_flight_requests=792/792b, model_inference=0/0b, accounting=10088232/9.6mb]
+Sun Jan 30 14:37:42 2022 [501][1][FATAL] Elasticsearch request failure: [parent] Data too large, data for [<http_request>] would be [1045837548/997.3mb], which is larger than the limit of [1020054732/972.7mb], real usage: [1045799968/997.3mb], new bytes reserved: [37580/36.6kb], usages [request=0/0b, fielddata=8767/8.5kb, in_flight_requests=37580/36.6kb, model_inference=0/0b, accounting=10088232/9.6mb]
+Sun Jan 30 16:24:54 2022 [500][1][FATAL] Exception in Controller: Sugarcrm\Sugarcrm\Security\InputValidation\Exception\ViolationException: Violation for REQUEST -> source in /var/www/html/techsupport/src/Security/InputValidation/Request.php:280
+Stack trace:
+#0 /var/www/html/techsupport/src/Security/InputValidation/Request.php(209): Sugarcrm\Sugarcrm\Security\InputValidation\Request->handleViolations('REQUEST', 'source')
+#1 /var/www/html/techsupport/src/Security/InputValidation/Request.php(178): Sugarcrm\Sugarcrm\Security\InputValidation\Request->getValidInput('REQUEST', 'source', Array, 'csv')
+#2 /var/www/html/techsupport/modules/Import/views/view.confirm.php(56): Sugarcrm\Sugarcrm\Security\InputValidation\Request->getValidInputRequest('source', Array, 'csv')
+#3 /var/www/html/techsupport/include/MVC/View/SugarView.php(154): ImportViewConfirm->display(Array)
+#4 /var/www/html/techsupport/include/MVC/Controller/SugarController.php(360): SugarView->process(Array)
+#5 /var/www/html/techsupport/include/MVC/Controller/SugarController.php(308): SugarController->processView()
+#6 /var/www/html/techsupport/include/MVC/SugarApplication.php(199): SugarController->execute()
+#7 /var/www/html/techsupport/index.php(26): SugarApplication->execute()
+#8 {main}
+Wed Feb  2 16:15:06 2022 [39460][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [PN3PR01CA0067.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Wed Feb  2 16:15:06 2022 [39460][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 16:15:38 2022 [26621][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [PN2PR01CA0039.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Wed Feb  2 16:15:38 2022 [26621][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 16:16:37 2022 [53092][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): unable to connect to ssl://smtp.office365.com:465 (Connection timed out)
+Wed Feb  2 16:16:37 2022 [53092][1][FATAL] SMTP -> ERROR: Failed to connect to server. Reply: 110 Code: Connection timed out
+Wed Feb  2 16:16:37 2022 [53092][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 16:18:02 2022 [19069][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): unable to connect to ssl://smtp.office365.com:465 (Connection timed out)
+Wed Feb  2 16:18:02 2022 [19069][1][FATAL] SMTP -> ERROR: Failed to connect to server. Reply: 110 Code: Connection timed out
+Wed Feb  2 16:18:02 2022 [19069][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 16:18:11 2022 [50077][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 16:18:11 2022 [26577][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): unable to connect to ssl://smtp.office365.com:465 (Connection timed out)
+Wed Feb  2 16:18:11 2022 [26577][1][FATAL] SMTP -> ERROR: Failed to connect to server. Reply: 110 Code: Connection timed out
+Wed Feb  2 16:18:11 2022 [26577][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 16:37:22 2022 [49199][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+Wed Feb  2 16:37:22 2022 [49199][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): unable to connect to smtp.office365.cn:587 (php_network_getaddresses: getaddrinfo failed: Name or service not known)
+Wed Feb  2 16:37:22 2022 [49199][1][FATAL] SMTP -> ERROR: Failed to connect to server. Code: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Wed Feb  2 16:37:22 2022 [49199][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 16:37:32 2022 [16342][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+Wed Feb  2 16:37:32 2022 [16342][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): unable to connect to smtp.office365.cn:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known)
+Wed Feb  2 16:37:32 2022 [16342][1][FATAL] SMTP -> ERROR: Failed to connect to server. Code: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Wed Feb  2 16:37:32 2022 [16342][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 16:37:40 2022 [49322][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+Wed Feb  2 16:37:40 2022 [49322][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): unable to connect to smtp.office365.cn:25 (php_network_getaddresses: getaddrinfo failed: Name or service not known)
+Wed Feb  2 16:37:40 2022 [49322][1][FATAL] SMTP -> ERROR: Failed to connect to server. Code: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Wed Feb  2 16:37:40 2022 [49322][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 16:37:52 2022 [53027][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+Wed Feb  2 16:37:52 2022 [53027][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): unable to connect to smtp.office365.cn:25 (php_network_getaddresses: getaddrinfo failed: Name or service not known)
+Wed Feb  2 16:37:52 2022 [53027][1][FATAL] SMTP -> ERROR: Failed to connect to server. Code: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Wed Feb  2 16:37:52 2022 [53027][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 16:38:01 2022 [39460][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+Wed Feb  2 16:38:01 2022 [39460][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): unable to connect to smtp.office365.cn:587 (php_network_getaddresses: getaddrinfo failed: Name or service not known)
+Wed Feb  2 16:38:01 2022 [39460][1][FATAL] SMTP -> ERROR: Failed to connect to server. Code: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Wed Feb  2 16:38:01 2022 [39460][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 16:56:09 2022 [50077][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [BM1PR0101CA0033.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Wed Feb  2 16:56:09 2022 [50077][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 16:57:30 2022 [26621][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [PN3PR01CA0053.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Wed Feb  2 16:57:30 2022 [26621][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 16:57:45 2022 [53092][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [PN2PR01CA0091.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Wed Feb  2 16:57:45 2022 [53092][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 16:58:03 2022 [49199][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): unable to connect to smtp.office365.com:465 (Connection timed out)
+Wed Feb  2 16:58:03 2022 [49199][1][FATAL] SMTP -> ERROR: Failed to connect to server. Reply: 110 Code: Connection timed out
+Wed Feb  2 16:58:03 2022 [49199][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 16:58:59 2022 [26577][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): unable to connect to smtp.office365.com:465 (Connection timed out)
+Wed Feb  2 16:58:59 2022 [26577][1][FATAL] SMTP -> ERROR: Failed to connect to server. Reply: 110 Code: Connection timed out
+Wed Feb  2 16:58:59 2022 [26577][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 16:59:27 2022 [42862][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): unable to connect to smtp.office365.com:465 (Connection timed out)
+Wed Feb  2 16:59:27 2022 [42862][1][FATAL] SMTP -> ERROR: Failed to connect to server. Reply: 110 Code: Connection timed out
+Wed Feb  2 16:59:27 2022 [42862][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 17:00:24 2022 [53027][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [PN1PR0101CA0014.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Wed Feb  2 17:00:24 2022 [53027][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 17:05:22 2022 [42862][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [PN3PR01CA0051.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Wed Feb  2 17:05:22 2022 [42862][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 17:05:36 2022 [43521][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [PN2PR01CA0094.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Wed Feb  2 17:05:36 2022 [43521][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 17:05:45 2022 [43216][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 17:06:19 2022 [53027][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [PN1PR0101CA0023.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Wed Feb  2 17:06:19 2022 [53027][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 17:06:36 2022 [50077][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [PN3PR01CA0085.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Wed Feb  2 17:06:36 2022 [50077][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 17:25:07 2022 [42862][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, the user credentials were incorrect. [PN2PR01CA0110.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Wed Feb  2 17:25:07 2022 [42862][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 17:25:29 2022 [50077][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, the user credentials were incorrect. [PN3PR01CA0004.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Wed Feb  2 17:25:29 2022 [50077][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 17:26:20 2022 [53027][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [PN2PR01CA0032.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Wed Feb  2 17:26:20 2022 [53027][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 17:27:11 2022 [50077][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [PN3PR01CA0059.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Wed Feb  2 17:27:11 2022 [50077][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Feb  2 17:27:49 2022 [53092][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [PN2PR01CA0020.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Wed Feb  2 17:27:49 2022 [53092][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Mon Feb  7 15:52:20 2022 [37369][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [PN3PR01CA0005.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Mon Feb  7 15:52:20 2022 [37369][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Mon Feb  7 16:17:44 2022 [42788][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [PN3PR01CA0061.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Mon Feb  7 16:17:44 2022 [42788][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Mon Feb  7 16:18:14 2022 [37580][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [PN1PR0101CA0037.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Mon Feb  7 16:18:14 2022 [37580][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Mon Feb  7 16:18:32 2022 [40512][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Mon Feb  7 16:18:46 2022 [37219][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [PN3PR01CA0071.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Mon Feb  7 16:18:46 2022 [37219][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Mon Feb  7 16:19:05 2022 [42793][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [PN1PR0101CA0028.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Mon Feb  7 16:19:05 2022 [42793][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Mon Feb  7 16:20:10 2022 [41510][1][FATAL] SMTP -> ERROR: Password command failed. Reply: 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [PN2PR01CA0095.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535
+Mon Feb  7 16:20:10 2022 [41510][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed Mar 16 11:45:15 2022 [56781][1][FATAL] Exception in Controller: ErrorException: stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:101
+Stack trace:
+#0 [internal function]: Laminas\Stdlib\ErrorHandler::addError(2, 'stream_socket_c...', '/var/www/html/t...', 101, Array)
+#1 /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php(101): stream_socket_client('ssl://outlook.o...', 0, 'php_network_get...', 30, 4, Resource id #658)
+#2 /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/Imap.php(91): Laminas\Mail\Protocol\Imap->setupSocket('ssl', 'outlook.office3...', 993, 30)
+#3 /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/Imap.php(45): Laminas\Mail\Protocol\Imap->connect('outlook.office3...', 993, 'ssl')
+#4 /var/www/html/techsupport/modules/Mailer/ImapMailer.php(88): Laminas\Mail\Protocol\Imap->__construct('outlook.office3...', 993, 'ssl')
+#5 /var/www/html/techsupport/modules/Mailer/ImapMailer.php(67): ImapMailer->createConnection()
+#6 /var/www/html/techsupport/modules/InboundEmail/InboundEmail.php(5521): ImapMailer->__construct(Object(Mailbox), 'nikhilesh.raut@...', 'P@ssw0rd$1', '')
+#7 /var/www/html/techsupport/modules/InboundEmail/InboundEmail.php(2485): InboundEmail->getImapMailer(Object(Mailbox))
+#8 /var/www/html/techsupport/modules/InboundEmail/InboundEmail.php(5327): InboundEmail->preConnectMailServer()
+#9 /var/www/html/techsupport/modules/InboundEmail/Popup.php(110): InboundEmail->connectToImapServer(true)
+#10 /var/www/html/techsupport/include/MVC/View/SugarView.php(570): require_once('/var/www/html/t...')
+#11 /var/www/html/techsupport/include/MVC/View/views/view.classic.php(43): SugarView->includeClassicFile('modules/Inbound...')
+#12 /var/www/html/techsupport/include/MVC/View/SugarView.php(154): ViewClassic->display(Array)
+#13 /var/www/html/techsupport/include/MVC/Controller/SugarController.php(360): SugarView->process(Array)
+#14 /var/www/html/techsupport/include/MVC/Controller/SugarController.php(308): SugarController->processView()
+#15 /var/www/html/techsupport/include/MVC/SugarApplication.php(199): SugarController->execute()
+#16 /var/www/html/techsupport/index.php(26): SugarApplication->execute()
+#17 {main}
+
+Next ErrorException: stream_socket_client(): unable to connect to ssl://outlook.office365.com:993 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution) in /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:101
+Stack trace:
+#0 [internal function]: Laminas\Stdlib\ErrorHandler::addError(2, 'stream_socket_c...', '/var/www/html/t...', 101, Array)
+#1 /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php(101): stream_socket_client('ssl://outlook.o...', 0, 'php_network_get...', 30, 4, Resource id #658)
+#2 /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/Imap.php(91): Laminas\Mail\Protocol\Imap->setupSocket('ssl', 'outlook.office3...', 993, 30)
+#3 /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/Imap.php(45): Laminas\Mail\Protocol\Imap->connect('outlook.office3...', 993, 'ssl')
+#4 /var/www/html/techsupport/modules/Mailer/ImapMailer.php(88): Laminas\Mail\Protocol\Imap->__construct('outlook.office3...', 993, 'ssl')
+#5 /var/www/html/techsupport/modules/Mailer/ImapMailer.php(67): ImapMailer->createConnection()
+#6 /var/www/html/techsupport/modules/InboundEmail/InboundEmail.php(5521): ImapMailer->__construct(Object(Mailbox), 'nikhilesh.raut@...', 'P@ssw0rd$1', '')
+#7 /var/www/html/techsupport/modules/InboundEmail/InboundEmail.php(2485): InboundEmail->getImapMailer(Object(Mailbox))
+#8 /var/www/html/techsupport/modules/InboundEmail/InboundEmail.php(5327): InboundEmail->preConnectMailServer()
+#9 /var/www/html/techsupport/modules/InboundEmail/Popup.php(110): InboundEmail->connectToImapServer(true)
+#10 /var/www/html/techsupport/include/MVC/View/SugarView.php(570): require_once('/var/www/html/t...')
+#11 /var/www/html/techsupport/include/MVC/View/views/view.classic.php(43): SugarView->includeClassicFile('modules/Inbound...')
+#12 /var/www/html/techsupport/include/MVC/View/SugarView.php(154): ViewClassic->display(Array)
+#13 /var/www/html/techsupport/include/MVC/Controller/SugarController.php(360): SugarView->process(Array)
+#14 /var/www/html/techsupport/include/MVC/Controller/SugarController.php(308): SugarController->processView()
+#15 /var/www/html/techsupport/include/MVC/SugarApplication.php(199): SugarController->execute()
+#16 /var/www/html/techsupport/index.php(26): SugarApplication->execute()
+#17 {main}
+
+Next Laminas\Mail\Protocol\Exception\RuntimeException: cannot connect to host; error = stream_socket_client(): unable to connect to ssl://outlook.office365.com:993 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution) (errno = 0 ) in /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:106
+Stack trace:
+#0 /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/Imap.php(91): Laminas\Mail\Protocol\Imap->setupSocket('ssl', 'outlook.office3...', 993, 30)
+#1 /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/Imap.php(45): Laminas\Mail\Protocol\Imap->connect('outlook.office3...', 993, 'ssl')
+#2 /var/www/html/techsupport/modules/Mailer/ImapMailer.php(88): Laminas\Mail\Protocol\Imap->__construct('outlook.office3...', 993, 'ssl')
+#3 /var/www/html/techsupport/modules/Mailer/ImapMailer.php(67): ImapMailer->createConnection()
+#4 /var/www/html/techsupport/modules/InboundEmail/InboundEmail.php(5521): ImapMailer->__construct(Object(Mailbox), 'nikhilesh.raut@...', 'P@ssw0rd$1', '')
+#5 /var/www/html/techsupport/modules/InboundEmail/InboundEmail.php(2485): InboundEmail->getImapMailer(Object(Mailbox))
+#6 /var/www/html/techsupport/modules/InboundEmail/InboundEmail.php(5327): InboundEmail->preConnectMailServer()
+#7 /var/www/html/techsupport/modules/InboundEmail/Popup.php(110): InboundEmail->connectToImapServer(true)
+#8 /var/www/html/techsupport/include/MVC/View/SugarView.php(570): require_once('/var/www/html/t...')
+#9 /var/www/html/techsupport/include/MVC/View/views/view.classic.php(43): SugarView->includeClassicFile('modules/Inbound...')
+#10 /var/www/html/techsupport/include/MVC/View/SugarView.php(154): ViewClassic->display(Array)
+#11 /var/www/html/techsupport/include/MVC/Controller/SugarController.php(360): SugarView->process(Array)
+#12 /var/www/html/techsupport/include/MVC/Controller/SugarController.php(308): SugarController->processView()
+#13 /var/www/html/techsupport/include/MVC/SugarApplication.php(199): SugarController->execute()
+#14 /var/www/html/techsupport/index.php(26): SugarApplication->execute()
+#15 {main}
+Wed Mar 16 11:45:41 2022 [56781][1][FATAL] Exception in Controller: ErrorException: stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:101
+Stack trace:
+#0 [internal function]: Laminas\Stdlib\ErrorHandler::addError(2, 'stream_socket_c...', '/var/www/html/t...', 101, Array)
+#1 /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php(101): stream_socket_client('ssl://outlook.o...', 0, 'php_network_get...', 30, 4, Resource id #658)
+#2 /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/Imap.php(91): Laminas\Mail\Protocol\Imap->setupSocket('ssl', 'outlook.office3...', 993, 30)
+#3 /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/Imap.php(45): Laminas\Mail\Protocol\Imap->connect('outlook.office3...', 993, 'ssl')
+#4 /var/www/html/techsupport/modules/Mailer/ImapMailer.php(88): Laminas\Mail\Protocol\Imap->__construct('outlook.office3...', 993, 'ssl')
+#5 /var/www/html/techsupport/modules/Mailer/ImapMailer.php(67): ImapMailer->createConnection()
+#6 /var/www/html/techsupport/modules/InboundEmail/InboundEmail.php(5521): ImapMailer->__construct(Object(Mailbox), 'nikhilesh.raut@...', 'P@ssw0rd$1', '')
+#7 /var/www/html/techsupport/modules/InboundEmail/InboundEmail.php(2485): InboundEmail->getImapMailer(Object(Mailbox))
+#8 /var/www/html/techsupport/modules/InboundEmail/InboundEmail.php(5327): InboundEmail->preConnectMailServer()
+#9 /var/www/html/techsupport/modules/InboundEmail/Popup.php(110): InboundEmail->connectToImapServer(true)
+#10 /var/www/html/techsupport/include/MVC/View/SugarView.php(570): require_once('/var/www/html/t...')
+#11 /var/www/html/techsupport/include/MVC/View/views/view.classic.php(43): SugarView->includeClassicFile('modules/Inbound...')
+#12 /var/www/html/techsupport/include/MVC/View/SugarView.php(154): ViewClassic->display(Array)
+#13 /var/www/html/techsupport/include/MVC/Controller/SugarController.php(360): SugarView->process(Array)
+#14 /var/www/html/techsupport/include/MVC/Controller/SugarController.php(308): SugarController->processView()
+#15 /var/www/html/techsupport/include/MVC/SugarApplication.php(199): SugarController->execute()
+#16 /var/www/html/techsupport/index.php(26): SugarApplication->execute()
+#17 {main}
+
+Next ErrorException: stream_socket_client(): unable to connect to ssl://outlook.office365.com:993 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution) in /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:101
+Stack trace:
+#0 [internal function]: Laminas\Stdlib\ErrorHandler::addError(2, 'stream_socket_c...', '/var/www/html/t...', 101, Array)
+#1 /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php(101): stream_socket_client('ssl://outlook.o...', 0, 'php_network_get...', 30, 4, Resource id #658)
+#2 /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/Imap.php(91): Laminas\Mail\Protocol\Imap->setupSocket('ssl', 'outlook.office3...', 993, 30)
+#3 /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/Imap.php(45): Laminas\Mail\Protocol\Imap->connect('outlook.office3...', 993, 'ssl')
+#4 /var/www/html/techsupport/modules/Mailer/ImapMailer.php(88): Laminas\Mail\Protocol\Imap->__construct('outlook.office3...', 993, 'ssl')
+#5 /var/www/html/techsupport/modules/Mailer/ImapMailer.php(67): ImapMailer->createConnection()
+#6 /var/www/html/techsupport/modules/InboundEmail/InboundEmail.php(5521): ImapMailer->__construct(Object(Mailbox), 'nikhilesh.raut@...', 'P@ssw0rd$1', '')
+#7 /var/www/html/techsupport/modules/InboundEmail/InboundEmail.php(2485): InboundEmail->getImapMailer(Object(Mailbox))
+#8 /var/www/html/techsupport/modules/InboundEmail/InboundEmail.php(5327): InboundEmail->preConnectMailServer()
+#9 /var/www/html/techsupport/modules/InboundEmail/Popup.php(110): InboundEmail->connectToImapServer(true)
+#10 /var/www/html/techsupport/include/MVC/View/SugarView.php(570): require_once('/var/www/html/t...')
+#11 /var/www/html/techsupport/include/MVC/View/views/view.classic.php(43): SugarView->includeClassicFile('modules/Inbound...')
+#12 /var/www/html/techsupport/include/MVC/View/SugarView.php(154): ViewClassic->display(Array)
+#13 /var/www/html/techsupport/include/MVC/Controller/SugarController.php(360): SugarView->process(Array)
+#14 /var/www/html/techsupport/include/MVC/Controller/SugarController.php(308): SugarController->processView()
+#15 /var/www/html/techsupport/include/MVC/SugarApplication.php(199): SugarController->execute()
+#16 /var/www/html/techsupport/index.php(26): SugarApplication->execute()
+#17 {main}
+
+Next Laminas\Mail\Protocol\Exception\RuntimeException: cannot connect to host; error = stream_socket_client(): unable to connect to ssl://outlook.office365.com:993 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution) (errno = 0 ) in /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/ProtocolTrait.php:106
+Stack trace:
+#0 /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/Imap.php(91): Laminas\Mail\Protocol\Imap->setupSocket('ssl', 'outlook.office3...', 993, 30)
+#1 /var/www/html/techsupport/vendor/laminas/laminas-mail/src/Protocol/Imap.php(45): Laminas\Mail\Protocol\Imap->connect('outlook.office3...', 993, 'ssl')
+#2 /var/www/html/techsupport/modules/Mailer/ImapMailer.php(88): Laminas\Mail\Protocol\Imap->__construct('outlook.office3...', 993, 'ssl')
+#3 /var/www/html/techsupport/modules/Mailer/ImapMailer.php(67): ImapMailer->createConnection()
+#4 /var/www/html/techsupport/modules/InboundEmail/InboundEmail.php(5521): ImapMailer->__construct(Object(Mailbox), 'nikhilesh.raut@...', 'P@ssw0rd$1', '')
+#5 /var/www/html/techsupport/modules/InboundEmail/InboundEmail.php(2485): InboundEmail->getImapMailer(Object(Mailbox))
+#6 /var/www/html/techsupport/modules/InboundEmail/InboundEmail.php(5327): InboundEmail->preConnectMailServer()
+#7 /var/www/html/techsupport/modules/InboundEmail/Popup.php(110): InboundEmail->connectToImapServer(true)
+#8 /var/www/html/techsupport/include/MVC/View/SugarView.php(570): require_once('/var/www/html/t...')
+#9 /var/www/html/techsupport/include/MVC/View/views/view.classic.php(43): SugarView->includeClassicFile('modules/Inbound...')
+#10 /var/www/html/techsupport/include/MVC/View/SugarView.php(154): ViewClassic->display(Array)
+#11 /var/www/html/techsupport/include/MVC/Controller/SugarController.php(360): SugarView->process(Array)
+#12 /var/www/html/techsupport/include/MVC/Controller/SugarController.php(308): SugarController->processView()
+#13 /var/www/html/techsupport/include/MVC/SugarApplication.php(199): SugarController->execute()
+#14 /var/www/html/techsupport/index.php(26): SugarApplication->execute()
+#15 {main}
+Wed Mar 16 11:53:19 2022 [24460][1][FATAL] SMTP -> ERROR: DATA END command failed. Reply: 5.2.252 SendAsDenied; nikhilesh.raut@ambitsoftware.com not allowed to send as support@ambitsoftware.com; STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message [BeginDiagnosticData]Cannot submit message. 0.35250:97360000, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:DF200000, 1.36674:0E000000, 1.61250:00000000, 1.45378:E4200000, 1.44866:2A020000, 16.55847:55110000, 17.43559:000000002402000000000000 Code: 554
+Wed Mar 16 11:53:19 2022 [24460][1][FATAL] PHPMailerProxy encountered an error: SMTP Error: data not accepted.SMTP server error: DATA END command failed Detail: 5.2.252 SendAsDenied; nikhilesh.raut@ambitsoftware.com not allowed to send as support@ambitsoftware.com; STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message [BeginDiagnosticData]Cannot submit message. 0.35250:97360000, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:DF200000, 1.36674:0E000000, 1.61250:00000000, 1.45378:E4200000, 1.44866:2A020000, 16.55847:55110000, 17.43559:000000002402000000000000 SMTP code: 554
+Wed Mar 16 11:53:19 2022 [24460][1][FATAL] PHPMailerProxy encountered an error: SMTP Error: data not accepted.SMTP server error: DATA END command failed Detail: 5.2.252 SendAsDenied; nikhilesh.raut@ambitsoftware.com not allowed to send as support@ambitsoftware.com; STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message [BeginDiagnosticData]Cannot submit message. 0.35250:97360000, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:DF200000, 1.36674:0E000000, 1.61250:00000000, 1.45378:E4200000, 1.44866:2A020000, 16.55847:55110000, 17.43559:000000002402000000000000 SMTP code: 554
+Wed Mar 16 11:53:19 2022 [24460][1][FATAL] SMTP -> ERROR: QUIT command failed. Reply: 000000000000, 20.52176:140FD9930E00103100000000, 20.50032:140FD9937E17000000000000, 0.35180:140FD993, 255.23226:0A000000, 255.27962:0A000000, 255.27962:0E000000, 255.31418:19000000, 0.35250:1F001336, 1.36674:0A000000, 1.61250:00000000, 1.45378:02000000, 1.44866:18000000, 1.36674:32000000, 1.61250:00000000, 1.45378:1D000000, 1.44866:01000000, 16.55847:84000000, 17.43559:00000000D0030000000000005D00000000000000, 20.52176:140FD9930E00101064000000, 20.50032:140FD9937E1700001E000000, 0.35180:69000000, 255.23226:0A001380, 255.27962:0A000000, 255.27962:32000000, 255.17082:DC040000, 0.27745:28000000, 4.21921:DC040000, 255.27962:FA000000, 255.1494:2D000000, 0.38698:86000000, 1.41134:46000000, 7.36354:010000000000010B86000000, 0.37692:86000000, 0.44092:01000000, 0.41232:86000000, 0.60208:01000000, 0.37136:01000002, 0.34608:86000000, 0.55056:06000002, 0.42768:86000000, 0.56112:86000000, 0.52807:06000002, 1.41134:46000000, 7.36354:010000000000010906000002, 4.33016:DC040000, 7.40748:010000000000010B06000002, 7.57132:000000000000000030000000, 1.63016:32000000, 4.39640:DC040000, 8.45434:6F6BF193B483FF42A1F6B7A018FFB8963A323166, 1.46798:04000000, 5.10786:0000000031352E32302E353038312E3031343A534932505230334D42363133393A32316639616663382D383436312D343163642D383431382D3234396332643866393537353A33303037363400D3201000000000, 7.51330:89F495761507DA0812000000, 0.39570:00000000, 1.55954:0A000000, 0.49266:02000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:7A000000, 1.56562:00000000, 1.64146:32000000, 1.33010:32000000, 2.54258:DC040000, 255.1750:C5000000, 255.31418:0A003267, 0.22753:87000000, 255.21817:DC040000, 0.64418:0A001870, 4.39842:DC040000, 0.41586:CF000000, 4.60547:DC040000, 0.21966:91000000, 4.30158:DC040000[EndDiagnosticData] [Hostname=SI2PR03MB6139.apcprd03.prod.outlook.com]
+221 2.0.0 Service closing transmission channel
+ Code: 000
+Thu Apr  7 13:27:13 2022 [62261][1][FATAL] could not load RHS 
+Wed May  4 17:38:38 2022 [14332][1][FATAL] died with message: The uploaded file is not compatible with this version of Sugar: 
+Wed May  4 17:41:24 2022 [23024][1][FATAL] Elasticsearch: connection went away to localhost:9200
+Thu May 12 13:29:00 2022 [51380][1][FATAL] SMTP -> ERROR: Password command failed. Reply: Username and Password not accepted. Learn more at
+ https://support.google.com/mail/?p=BadCredentials v67-20020a626146000000b0050dc76281b2sm3132388pfb.140 - gsmtp
+ Code: 535 Extended Code: 5.7.8
+Thu May 12 13:29:01 2022 [51380][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Thu May 12 13:29:54 2022 [10788][1][FATAL] SMTP -> ERROR: Password command failed. Reply: Username and Password not accepted. Learn more at
+ https://support.google.com/mail/?p=BadCredentials g5-20020aa78185000000b0050dc76281d9sm3087035pfi.179 - gsmtp
+ Code: 535 Extended Code: 5.7.8
+Thu May 12 13:29:54 2022 [10788][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Thu May 12 13:32:25 2022 [15563][1][FATAL] SMTP -> ERROR: Password command failed. Reply: Username and Password not accepted. Learn more at
+ https://support.google.com/mail/?p=BadCredentials o16-20020a170902d4d000b0015e8d4eb299sm3385097plg.227 - gsmtp
+ Code: 535 Extended Code: 5.7.8
+Thu May 12 13:32:26 2022 [15563][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Thu May 12 13:33:34 2022 [49939][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Thu May 12 13:36:56 2022 [10031][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Thu May 12 13:47:28 2022 [51358][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): Peer certificate CN=`*.prod.iad2.secureserver.net' did not match expected CN=`mail.ambitsoftware.in'
+Thu May 12 13:47:28 2022 [51358][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): Failed to enable crypto
+Thu May 12 13:47:28 2022 [51358][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): unable to connect to ssl://mail.ambitsoftware.in:465 (Unknown error)
+Thu May 12 13:47:28 2022 [51358][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Thu May 12 13:48:08 2022 [51380][1][FATAL] SMTP -> ERROR: Password command failed. Reply: Username and Password not accepted. Learn more at
+ https://support.google.com/mail/?p=BadCredentials 4-20020a170902c14400b0015e981111d5sm3259368plj.234 - gsmtp
+ Code: 535 Extended Code: 5.7.8
+Thu May 12 13:48:08 2022 [51380][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Thu May 12 13:48:17 2022 [50313][1][FATAL] SMTP -> ERROR: Password command failed. Reply: Username and Password not accepted. Learn more at
+ https://support.google.com/mail/?p=BadCredentials h12-20020aa796cc000000b005108a492701sm3147104pfq.38 - gsmtp
+ Code: 535 Extended Code: 5.7.8
+Thu May 12 13:48:17 2022 [50313][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Thu May 12 13:48:25 2022 [10031][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol
+Thu May 12 13:48:25 2022 [10031][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): Failed to enable crypto
+Thu May 12 13:48:25 2022 [10031][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): unable to connect to ssl://smtp.gmail.com:587 (Unknown error)
+Thu May 12 13:48:25 2022 [10031][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Thu May 12 13:49:56 2022 [10789][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Thu May 12 13:50:12 2022 [15563][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): unable to connect to ssl://smtp.office365.com:465 (Connection timed out)
+Thu May 12 13:50:12 2022 [15563][1][FATAL] SMTP -> ERROR: Failed to connect to server. Reply: 110 Code: Connection timed out
+Thu May 12 13:50:12 2022 [15563][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Thu May 12 13:50:37 2022 [15563][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+Thu May 12 13:50:37 2022 [15563][1][FATAL] SMTP -> ERROR: Connection: Failed to connect to server.. Reply: 2 Code: stream_socket_client(): unable to connect to smtp.office365.com:587 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution)
+Thu May 12 13:50:37 2022 [15563][1][FATAL] SMTP -> ERROR: Failed to connect to server. Code: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+Thu May 12 13:50:37 2022 [15563][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Wed May 18 13:38:27 2022 [63577][1][FATAL] Elasticsearch: connection went away to localhost:9200
+Wed May 18 13:38:27 2022 [15832][1][FATAL] Elasticsearch: connection went away to localhost:9200
+Thu May 19 16:07:11 2022 [45815][1][FATAL] SMTP -> ERROR: Password command failed. Reply: Authentication unsuccessful [PN3PR01CA0142.INDPRD01.PROD.OUTLOOK.COM]
+ Code: 535 Extended Code: 5.7.3
+Thu May 19 16:07:11 2022 [45815][1][FATAL] MailerException - @(SmtpMailer.php:239 [6]) - Failed to connect to outbound SMTP Mail Server: The outbound mail server selected for the mail account you are using is invalid.  Check the settings or select a different mail server for the mail account.
+Fri May 20 11:58:04 2022 [57951][1][FATAL] Elasticsearch: connection went away to localhost:9200
+Fri May 20 11:58:04 2022 [57951][1][FATAL] Elasticsearch verify conn: failure
+Fri May 20 11:58:04 2022 [57951][1][FATAL] Elasticsearch no longer available
+Fri May 20 11:59:06 2022 [50451][1][FATAL] Elasticsearch: connection went away to localhost:9200
+Fri May 20 11:59:06 2022 [50451][1][FATAL] Elasticsearch verify conn: failure
+Fri Jun  3 14:57:41 2022 [27519][1][ALERT]  Query Failed: EXPLAIN select account from archit patil;: MySQL error 1146: Table 'techsupport.archit' doesn't exist
+Fri Jun  3 14:58:43 2022 [27434][1][ALERT]  Query Failed: EXPLAIN select account from archit patil;: MySQL error 1146: Table 'techsupport.archit' doesn't exist
+Fri Jun  3 15:05:41 2022 [27495][1][ALERT]  Query Failed: EXPLAIN select * from account;: MySQL error 1146: Table 'techsupport.account' doesn't exist
+Fri Jun  3 15:06:13 2022 [31926][1][ALERT]  Query Failed: EXPLAIN select * from account\r\n: MySQL error 1146: Table 'techsupport.account' doesn't exist
+Fri Jun  3 15:11:41 2022 [31947][1][ALERT]  Query Failed: EXPLAIN select * from Contact;: MySQL error 1146: Table 'techsupport.Contact' doesn't exist
+Fri Jun  3 15:29:17 2022 [2767][1][ALERT]  Query Failed: EXPLAIN select * from Accounts;: MySQL error 1146: Table 'techsupport.Accounts' doesn't exist
+Fri Jun  3 15:38:38 2022 [27434][1][ALERT]  Query Failed: EXPLAIN select city from accounts;: MySQL error 1054: Unknown column 'city' in 'field list'
+Fri Jun  3 15:55:41 2022 [27373][1][ALERT]  Query Failed: EXPLAIN select city from accounts;: MySQL error 1054: Unknown column 'city' in 'field list'
+Fri Jun  3 15:57:41 2022 [27373][1][ALERT]  Query Failed: EXPLAIN select * from accounts where city= "Santa Fe";: MySQL error 1054: Unknown column 'city' in 'where clause'
+Fri Jun  3 15:58:17 2022 [32729][1][ALERT]  Query Failed: EXPLAIN select city from accounts;: MySQL error 1054: Unknown column 'city' in 'field list'
+Fri Jun  3 16:25:36 2022 [32730][1][ALERT]  Query Failed: EXPLAIN select city from accounts;: MySQL error 1054: Unknown column 'city' in 'field list'
